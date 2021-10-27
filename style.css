@@ -33,7 +33,7 @@ p {
 }
 
 .main-page-wrapper {
-  background: url(./main1.png) center top no-repeat, url(./main2.png) center bottom 165px no-repeat;
+  background: url(../img/main1.png) center top no-repeat, url(../img/main2.png) center bottom 165px no-repeat;
 }
 
 .container {
@@ -42,14 +42,11 @@ p {
 }
 
 .header {
-  height: 123;
-  position: relative;
   vertical-align: middle;
   margin-bottom: 196px;
 }
 
 .logo {
-  position: relative;
   display: inline-block;
   top: 29px;
   left: 0;
@@ -63,11 +60,9 @@ p {
 }
 
 .contacts {
-  position: absolute;
   display: inline-block;
   top: 27px;
-  right: 0;
-  text-align: right;
+  margin-left: 400px;
 }
 
 .menu__item {
@@ -115,7 +110,8 @@ p {
   margin-bottom: 33px;
 }
 
-.useful-info__btn {
+
+.btn {
   background: #F5170E;
   border-radius: 35px;
   padding: 18px 40px;
@@ -123,9 +119,11 @@ p {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
-  margin-bottom: 346px;
 }
 
+.useful-info__btn {
+  margin-bottom: 246px;
+}
 
 .tours {
   margin-bottom: 51px;
@@ -134,7 +132,6 @@ p {
 .tours__title-block {
   display: inline-block;
   margin-right: 12px;
-  position: relative;
 }
 
 .title {
@@ -178,14 +175,9 @@ p {
 .tour-card__col {
   display: inline-block;
   vertical-align: top;
-  width: 90px;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
-???????????
-.tour-card__descr {
-  display: block;
-}
 
 .tour-card__col :last-child {
   margin-right: 0;
@@ -198,6 +190,7 @@ p {
 }
 
 .tour-card__text {
+  display: inline-block;
   width: 90px;
   height: 22px;
   color: #666666;
@@ -211,26 +204,11 @@ p {
 }
 
 .btn_white {
-  text-decoration: none;
-  width: 135px;
-  height: 55px;
-  left: 413px;
-  top: 1243px;
-  border: 1px solid #F5170E;
-  box-sizing: border-box;
-  border-radius: 35px;
+  background: #FFFFFF;
   color: #F5170E;
+  border: 1px solid #F5170E;
 }
 
-.btn_red {
-  width: 135px;
-  height: 55px;
-  left: 801px;
-  top: 1243px;
-  background: #F5170E;
-  border-radius: 35px;
-  color: #FFFFFF;
-}
 
 .news__tab {
   display: inline-block;
@@ -315,16 +293,6 @@ p {
   background: #FFFFFF;
 }
 
-.about__btn {
-  background: #F5170E;
-  border-radius: 35px;
-  padding: 18px 40px;
-  color: #FFFFFF;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin-bottom: 246px;
-}
 
 .about:before {
   content: "";
@@ -332,11 +300,11 @@ p {
   vertical-align: top;
   width: 490px;
   height: 505px;
-  background: url(./gates.png);
+  background: url(../img/gates.png);
 }
 
 .about__company {
-  background: url(./mountains.png);
+  background: url(../img/mountains.png);
   padding: 150px 80px;
   width: 785px;
   height: 455px;
@@ -372,15 +340,11 @@ p {
   border-top: 1px solid #353538;
 }
 
-.footer {
-  height: 146px;
-  position: relative;
-}
-
 
 .contacts__workhours {
   color: #9A9A9A;
   font-size: 11px;
+  margin-left: 522px;
 }
 
 .socials__link {
@@ -402,40 +366,39 @@ p {
 }
 
 .socials {
-  position: absolute;
   top: 49px;
   right: 300px;
 }
 
-.socials__item socials__item_icon_telegram .socials__link {
-  background-image: url(./telegram.png);
+.socials__item_telegram.socials__link {
+  background-image: url(../img/telegram.png);
 }
 
 .socials__item socials__item_icon_telegram .socials__link:hover {
-  background-image: url(./telegram-hover.png.png);
+  background-image: url(../img/telegram-hover.png.png);
 }
 
 .socials__item socials__item_icon_vk .socials__link {
-  background-image: url(./vk.png);
+  background-image: url(../img/vk.png);
 }
 
 .socials__item socials__item_icon_vk .socials__link:hover {
-  background-image: url(./vk-hover.png.png);
+  background-image: url(../img/vk-hover.png.png);
 }
 
 .socials__item socials__item_icon_fb .socials__link {
-  background-image: url(./f.png);
+  background-image: url(../img/f.png);
 }
 
 .socials__item socials__item_icon_fb .socials__link:hover {
-  background-image: url(./f-hover.png.png);
+  background-image: url(../img/f-hover.png.png);
 }
 
 .socials__item socials__item_icon_insta .socials__link {
-    background-image: url(./in.png);
+    background-image: url(../img/in.png);
 }
   
 .socials__item socials__item_icon_insta .socials__link:hover {
-    background-image: url(./in-hover.png.png);
+    background-image: url(../img/in-hover.png.png);
 }
 
