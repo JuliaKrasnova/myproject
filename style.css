@@ -33,7 +33,7 @@ p {
 }
 
 .main-page-wrapper {
-  background: url(../img/main1.png) center top no-repeat, url(../img/main2.png) center bottom 165px no-repeat;
+  background: url(./img/main1.png) center top no-repeat, url(./img/main2.png) center bottom 165px no-repeat;
 }
 
 .container {
@@ -300,11 +300,11 @@ p {
   vertical-align: top;
   width: 490px;
   height: 505px;
-  background: url(../img/gates.png);
+  background: url(./img/gates.png);
 }
 
 .about__company {
-  background: url(../img/mountains.png);
+  background: url(./img/mountains.png);
   padding: 150px 80px;
   width: 785px;
   height: 455px;
@@ -371,34 +371,34 @@ p {
 }
 
 .socials__item_telegram.socials__link {
-  background-image: url(../img/telegram.png);
+  background-image: url(./img/telegram.png);
 }
 
-.socials__item socials__item_icon_telegram .socials__link:hover {
-  background-image: url(../img/telegram-hover.png.png);
+.socials__item_telegram .socials__link:hover {
+  background-image: url(./img/telegram-hover.png.png);
 }
 
-.socials__item socials__item_icon_vk .socials__link {
-  background-image: url(../img/vk.png);
+.socials__item_vk .socials__link {
+  background-image: url(./img/vk.png);
 }
 
-.socials__item socials__item_icon_vk .socials__link:hover {
-  background-image: url(../img/vk-hover.png.png);
+.socials__item_vk .socials__link:hover {
+  background-image: url(./img/vk-hover.png.png);
 }
 
-.socials__item socials__item_icon_fb .socials__link {
-  background-image: url(../img/f.png);
+.socials__item_fb .socials__link {
+  background-image: url(./img/f.png);
 }
 
-.socials__item socials__item_icon_fb .socials__link:hover {
-  background-image: url(../img/f-hover.png.png);
+.socials__item_icon_fb .socials__link:hover {
+  background-image: url(./img/f-hover.png.png);
 }
 
-.socials__item socials__item_icon_insta .socials__link {
-    background-image: url(../img/in.png);
+.socials__item_insta .socials__link {
+    background-image: url(./img/in.png);
 }
   
-.socials__item socials__item_icon_insta .socials__link:hover {
-    background-image: url(../img/in-hover.png.png);
+.socials__item_insta .socials__link:hover {
+    background-image: url(./img/in-hover.png.png);
 }
 
