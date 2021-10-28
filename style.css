@@ -370,7 +370,7 @@ p {
   right: 300px;
 }
 
-.socials__item_telegram.socials__link {
+.socials__item_telegram .socials__link {
   background-image: url(./img/telegram.png);
 }
 
