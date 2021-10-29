@@ -33,7 +33,7 @@ p {
 }
 
 .main-page-wrapper {
-  background: url(./img/main1.png) center top no-repeat, url(./img/main2.png) center bottom 165px no-repeat;
+  background: url(../img/main1.png) center top no-repeat, url(../img/main2.png) center bottom 165px no-repeat;
 }
 
 .container {
@@ -130,9 +130,13 @@ p {
 }
 
 .tours__title-block {
-  display: inline-block;
   margin-right: 12px;
 }
+
+.tours__title {
+  display: inline-block;
+}
+
 
 .title {
   font-size: 36px;
@@ -300,17 +304,19 @@ p {
   vertical-align: top;
   width: 490px;
   height: 505px;
-  background: url(./img/gates.png);
+  background: url(../img/gates.png);
+  margin-left: 100px;
+  
 }
 
 .about__company {
-  background: url(./img/mountains.png);
+  background: url(../img/mountains.png);
   padding: 150px 80px;
   width: 785px;
   height: 455px;
   display: inline-block;
   vertical-align: top;
-  margin-left: 250px;
+  margin-left: 350px;
   margin-top: -400px;
 }
 
@@ -366,6 +372,7 @@ p {
 }
 
 .socials {
+  display: inline-block;
   top: 49px;
   right: 300px;
 }
@@ -374,7 +381,7 @@ p {
   background-image: url(./img/telegram.png);
 }
 
-.socials__item_telegram .socials__link:hover {
+.ssocials__item_telegram .socials__link:hover {
   background-image: url(./img/telegram-hover.png.png);
 }
 
@@ -390,7 +397,7 @@ p {
   background-image: url(./img/f.png);
 }
 
-.socials__item_icon_fb .socials__link:hover {
+.socials__item_fb .socials__link:hover {
   background-image: url(./img/f-hover.png.png);
 }
 
