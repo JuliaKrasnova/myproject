@@ -33,7 +33,7 @@ p {
 }
 
 .main-page-wrapper {
-  background: url(../img/main1.png) center top no-repeat, url(../img/main2.png) center bottom 165px no-repeat;
+  background: url(./img/main1.png) center top no-repeat, url(./img/main2.png) center bottom 165px no-repeat;
 }
 
 .container {
@@ -304,13 +304,13 @@ p {
   vertical-align: top;
   width: 490px;
   height: 505px;
-  background: url(../img/gates.png);
+  background: url(./img/gates.png);
   margin-left: 100px;
   
 }
 
 .about__company {
-  background: url(../img/mountains.png);
+  background: url(./img/mountains.png);
   padding: 150px 80px;
   width: 785px;
   height: 455px;
