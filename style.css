@@ -33,7 +33,7 @@ p {
 }
 
 .main-page-wrapper {
-  background: url(./img/main1.png) center top no-repeat, url(./img/main2.png) center bottom 165px no-repeat;
+  background: url(./img/main1.png) center top no-repeat, url(./img/main2.png) center bottom 165px no-repeat, #001821;
 }
 
 .container {
@@ -133,6 +133,7 @@ p {
 
 
 .btn {
+  display: inline-block;
   background: #F5170E;
   border-radius: 35px;
   padding: 18px 40px;
@@ -151,6 +152,10 @@ p {
 }
 
 .tours__title-block {
+  margin-right: 12px;
+}
+
+.h2 {
   margin-right: 12px;
 }
 
@@ -223,6 +228,7 @@ p {
 .tour-card__icon {
   height: 26px;
   background: url;
+  margin-right: 10px;
 }
 
 .tour-card__text {
@@ -269,9 +275,23 @@ p {
   border-radius: 5px;
 }
 
+.news__tab_plain {
+  background: url(./img/plain.png);
+  width: 557px;
+  height: 394px;
+}
+
+.news__tab_Surfer {
+  background: url(./img/Surfer.png);
+  width: 557px;
+  height: 394px;
+}
+
+
 .news__tab_container {
   display: flex;
   flex-direction: column;
+  margin-top: 250px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -292,6 +312,7 @@ p {
 .news__slogan {
   font-weight: normal;
   font-size: 16px;
+  
 }
 
 
@@ -338,18 +359,16 @@ p {
 
 
 .about {
-
+  margin-bottom: 53px;
 }
 
-.about:before {
+.container__about:before {
   content: "";
   display: block;
   vertical-align: top;
   width: 490px;
   height: 505px;
   background: url(./img/gates.png);
-  margin-left: 100px;
-  
 }
 
 .about__company {
@@ -395,6 +414,7 @@ p {
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer__col {
@@ -402,8 +422,13 @@ p {
   align-items: flex-end;
 }
 
+.footer__col_align_left {
+  align-items: center;
+}
+
 .footer__col_align_right {
   align-items: flex-end;
+  align-items: center;
 }
 
 .contacts__workhours {
