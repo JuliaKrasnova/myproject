@@ -148,7 +148,7 @@ p {
 }
 
 .tours {
-  margin-bottom: 51px;
+  margin-bottom: 46px;
 }
 
 .tours__title-block {
@@ -193,7 +193,8 @@ p {
   color: #1f1414;
   background: #FFFFFF;
   border-radius: 0px 0px 5px 5px;
-  padding: 36px 30px;
+  padding: 27px 20px;
+  margin-bottom: 68px;
 }
 
 .tour-card__title {
@@ -241,6 +242,7 @@ p {
   font-size: 14px;
   line-height: 21px;
   align-items: center;
+  margin-top: 20px;
 }
 
 .btn_white {
@@ -248,10 +250,14 @@ p {
   color: #F5170E;
   border: 1px solid #F5170E;
   vertical-align: bottom;
+  margin-top: 15px;
+  margin-left: -10px;
 }
 
 .btn_red {
   vertical-align: bottom;
+  margin-top: 15px;
+  margin-left: -10px;
 }
 
 .news__list {
@@ -279,6 +285,7 @@ p {
   background: url(./img/plain.png);
   width: 557px;
   height: 394px;
+  margin-right: 20px;
 }
 
 .news__tab_Surfer {
@@ -291,7 +298,7 @@ p {
 .news__tab_container {
   display: flex;
   flex-direction: column;
-  margin-top: 250px;
+  margin-top: 229px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -302,6 +309,7 @@ p {
 .news__date {
   font-weight: normal;
   font-size: 14px;
+  margin-bottom: 13px;
 }
 
 .news__tab_title {
@@ -324,7 +332,8 @@ p {
   text-align: center;
   font-size: 16px;
   line-height: 32px;
-  margin-bottom: 152px;
+  margin-bottom: 142px;
+  margin-left: 153px;
 }
 
 
@@ -387,6 +396,7 @@ p {
   font-size: 36px;
   color: #000000;
   margin-bottom: 37px;
+  margin-top: -84px;
 }
 
 .about__company_text {
@@ -399,6 +409,10 @@ p {
 
 .about__company_text p{
   margin-bottom: 20px;
+}
+
+.about__btn {
+  margin-top: 22px;
 }
 
 .about__company_text p:last-child{
@@ -415,6 +429,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
 .footer__col {
@@ -424,11 +439,13 @@ p {
 
 .footer__col_align_left {
   align-items: center;
+  margin-top: 42px;
 }
 
 .footer__col_align_right {
   align-items: flex-end;
   align-items: center;
+  margin-top: 42px;
 }
 
 .contacts__workhours {

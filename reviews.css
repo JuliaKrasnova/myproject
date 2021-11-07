@@ -46,7 +46,7 @@ a {
   display: flex;
   flex-direction: column;
   min-height: 412px;
-  margin-bottom: 70px;
+  margin-bottom: 130px;
   padding-top: 26px;
   background: url(./img/header/headline\ 1.png) center top no-repeat;
   width: 1920px;
@@ -72,7 +72,6 @@ a {
   align-items: flex-start;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
 }
 
 
@@ -137,7 +136,6 @@ a {
   font-size: 72px;
   font-style: bold;
   line-height: 84px;
-  font-weight: bold;
 }
 
 
@@ -164,43 +162,9 @@ a {
   height: 833px;
 }
 
-.offers {
-  margin-top: 86px;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 82px;
+.main {
+  color: #1A1B1E;
 }
-
-.offers__img {
-  margin-right: 56px;
-}
-
-.offers__title {
-  font-size: 36px;
-  font-style: bold;
-  line-height: 42px;
-  display: flex;
-  align-items: flex-end;
-  color: #000000;
-  font-weight: bold;
-}
-
-.offers__content {
-  margin-top: 25px;
-  font-size: 16px;
-  line-height: 27px;
-  color: #303030;
-}
-
-
-.btn_white {
-  border: 1px solid #F5170E;
-  box-sizing: border-box;
-  border-radius: 35px;
-  background: #FFFFFF;
-  color: #F5170E;
-}
-
 
 .pager {
   margin-top: 69px;
@@ -246,14 +210,6 @@ a {
   background: #F5170E;
 }
 
-.partners__title {
-  font-size: 48px;
-  line-height: 56px;
-  color: #1A1B1E;
-  margin-bottom: 99px;
-  margin-left: 66px;
-}
-
 .partners {
   background: #F4F5F5;
   color: #1A1B1E;
@@ -272,101 +228,104 @@ a {
   margin-bottom: 50px;
 }
 
-.brends {
+.reviews {
+  column-count: 2;
+  column-gap: 27px;
+  margin-bottom: 76px;
+}
+
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  background: #F4F5F5;
+  width: 557px;
+}
+
+.reviews__item {
+  margin-bottom: 17px;
+}
+
+.avatar {
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.review__header {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-left: 57px;
+  align-items: flex-start;
+  margin-bottom: 32px;
 }
 
-.brends__link {
-  text-decoration: none;
-  display: flex;
-  width: 250px;
-  height: 85px;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.footer {
-  background: #001821;
-  width: 1920px;
-}
-
-.container__footer {
-  border-top: 1px solid #353538;
-  width: 1142px;
-  height: 92.64px;
-  vertical-align: middle;
-}
-
-.footer__content {
-  background: #001821;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer__col {
+.review__user {
   display: flex;
   align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2E77A4;
+  margin-bottom: 12px;
 }
 
-.footer__col_align-right {
-  align-items: flex-end;
+.review__user::after {
+  content: url(./img/reviews/vk-blue\ 1.png);
+  height: 30px;
 }
 
-.contacts__footer {
+.review__tags {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tag {
+font-style: 13px;
+color: #303030;
+padding: 9px 18px;
+border-radius: 60px;
+background: #E7E7E7;
+}
+
+.tag_bg_blue {
+  background: #B9EAE4;
+}
+
+.review__title {
+  font-size: 30px;
+  color: #1A1B1E;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+
+.review__content-text {
+  font-size: 16px;
+  color: #818181;
+  margin-bottom: 48px;
+}
+
+.review__date {
+  font-size: 14px;
+  color: #1A1B1E;
+  font-weight: bold;
+}
+
+.separatot {
+  background: coral url(./img/reviews/Rectangle\ \(1\).png);
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.contacts__workhours {
-  color: #9A9A9A;
-  font-size: 11px;
+.separator__content {
+  min-width: 50%;
 }
 
-.socials__link {
-  display: block;
-  text-decoration: none;
-  width: 36px;
-  height: 36px;
-  background: center center no-repeat;
-  vertical-align: middle;
-}
 
-.socials__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
-}
 
-.socials__item:last-child {
-  margin-right: 0;
-}
 
-.socials {
-  margin-right: 74px;
-  top: 49px;
-  right: 300px;
-}
 
-.socials__item_telegram .socials__link {
-  background-image: url(./img/footer/telegram.png);
-}
 
-.socials__item_vk .socials__link {
-  background-image: url(./img/footer/vk.png);
-}
 
-.socials__item_fb .socials__link {
-  background-image: url(./img/footer/f.png);
-}
-
-.socials__item_insta .socials__link {
-    background-image: url(./img/footer/in.png);
-}
-  
 
 
