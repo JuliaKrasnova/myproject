@@ -49,8 +49,7 @@ a {
   margin-bottom: 70px;
   padding-top: 26px;
   background: url(./img/header/headline\ 1.png) center top no-repeat;
-  width: 1920px;
-  height: 412px;
+  width: 100%;
   background-size: cover;
 }
 
@@ -83,7 +82,7 @@ a {
   align-items: center;
 }
 
-.top-line__col_align_right {
+.top-line__col_align-right {
   justify-content: flex-end;
 }
 
@@ -368,5 +367,3 @@ a {
     background-image: url(./img/footer/in.png);
 }
   
-
-

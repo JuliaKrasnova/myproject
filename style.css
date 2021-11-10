@@ -61,7 +61,7 @@ p {
   align-items: center;
 }
 
-.header__col_align_right {
+.header__col_align-right {
   justify-content: flex-end;
 }
 
@@ -295,7 +295,7 @@ p {
 }
 
 
-.news__tab_container {
+.news__tab-container {
   display: flex;
   flex-direction: column;
   margin-top: 229px;
@@ -312,7 +312,7 @@ p {
   margin-bottom: 13px;
 }
 
-.news__tab_title {
+.news__tab-title {
   font-weight: bold;
   font-size: 24px;
 }
@@ -407,7 +407,7 @@ p {
   max-width: 785px;
 }
 
-.about__company_text p{
+.about__company-text p{
   margin-bottom: 20px;
 }
 
@@ -419,30 +419,32 @@ p {
   margin-bottom: 0;
 }
 
-.footer-container__content {
-  border-top: 1px solid #353538;
-  width: 1142px;
-  height: 92.64px;
-}
 
 .footer {
+  background: #001821;
+  width: 1920px;
+}
+
+.footer-container__content {
+  border-top: 1px solid #353538;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 100%;
+  vertical-align: middle;
+  height: 92.64px;
 }
 
 .footer__col {
   display: flex;
   align-items: flex-end;
+  margin-bottom: 57px;
 }
 
-.footer__col_align_left {
+.footer__col_align-left {
   align-items: center;
   margin-top: 42px;
 }
 
-.footer__col_align_right {
+.footer__col_align-right {
   align-items: flex-end;
   align-items: center;
   margin-top: 42px;
@@ -508,4 +510,3 @@ p {
 .socials__item_insta .socials__link:hover {
     background-image: url(./img/in-hover.png.png);
 }
-
