@@ -411,12 +411,31 @@ p {
   margin-bottom: 20px;
 }
 
+.about__p {
+  color: #060606;
+  line-height: 27px;
+}
+
 .about__btn {
-  margin-top: 22px;
+  margin-top: 45px;
 }
 
 .about__company_text p:last-child{
   margin-bottom: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.page__content {
+  flex: 1 0 auto;
 }
 
 
