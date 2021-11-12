@@ -159,7 +159,7 @@ a {
 }
 
 
-.container__main {
+.container_main {
   width: 1168px;
   height: 833px;
 }
@@ -206,11 +206,10 @@ a {
   margin-top: 69px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   text-align: center;
   font-size: 16px;
   line-height: 32px;
-  margin-bottom: 152px;
   color: #000000;
 }
 
@@ -260,7 +259,7 @@ a {
   padding: 88 0;
 }
 
-.container__partners {
+.container_partners {
   display: flex;
   flex-direction: column;
 }
@@ -308,7 +307,7 @@ html, body {
   width: 1920px;
 }
 
-.container__footer {
+.container_footer {
   border-top: 1px solid #353538;
   width: 1142px;
   height: 92.64px;

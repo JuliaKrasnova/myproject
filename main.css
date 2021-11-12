@@ -1,0 +1,531 @@
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.42;
+  background: #29292c;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-page-wrapper {
+  background: url(./img/main1.png) center top no-repeat, url(./img/main2.png) center bottom 165px no-repeat, #001821;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1141px;
+}
+
+.container_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  align-items: center;
+  vertical-align: middle;
+  margin-bottom: 130px;
+  padding-top: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
+}
+
+.header__col_align-right {
+  justify-content: flex-end;
+}
+
+.logo {
+  display: block;
+  top: 29px;
+  left: 0;
+  margin-right: 79px;
+}
+
+.menu {
+  display: inline-block;
+  top: 42px;
+  left: 554px;
+}
+
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 54px;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+ .contacts {
+  font-style: normal;
+  text-align: right;
+}
+
+ .contacts__mode {
+   font-size: 13px;
+   text-decoration: underline;
+}
+
+.container_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 500px;
+}
+
+.useful-info {
+  width: 50%;
+}
+
+.useful-info__title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 98px;
+  margin-bottom: 27px;
+}
+
+.userfil-info__slogan {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 33px;
+}
+
+
+.btn {
+  display: inline-block;
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 40px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.useful-info__btn {
+  margin-bottom: 246px;
+}
+
+.tours {
+  margin-bottom: 46px;
+}
+
+.tours__title-block {
+  margin-right: 12px;
+}
+
+.h2 {
+  margin-right: 12px;
+}
+
+.tours__title {
+  display: inline-block;
+}
+
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 51px;
+}
+
+.tours__tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour-card__img-block {
+  width: 362px;
+  height: 144px;
+  background: url(.jpg);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.tours__item {
+  margin-right: 27px;
+  max-width: 362px;
+  width: calc(100% / 3 - 18px);
+}
+
+.tour-card__content {
+  min-height: 305px;
+  color: #1f1414;
+  background: #FFFFFF;
+  border-radius: 0px 0px 5px 5px;
+  padding: 27px 20px;
+  margin-bottom: 68px;
+}
+
+.tour-card__title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+
+.tour-card__col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tour-card__col_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tour-card__col_right {
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.tour-card__col :last-child {
+  margin-right: 0;
+}
+
+.tour-card__icon {
+  height: 26px;
+  background: url;
+  margin-right: 10px;
+}
+
+.tour-card__text {
+  height: 22px;
+  color: #666666;
+}
+
+.tour-card__descr {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn_white {
+  background: #FFFFFF;
+  color: #F5170E;
+  border: 1px solid #F5170E;
+  vertical-align: bottom;
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+.btn_red {
+  vertical-align: bottom;
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+.news__list {
+  margin-bottom: 57px;
+}
+
+.news__tab {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  max-width: 557px;
+}
+
+.news__tab img {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
+  width: 557px;
+  height: 394px;
+  background: url(.jpg);
+  border-radius: 5px;
+}
+
+.news__tab_plain {
+  background: url(./img/plain.png);
+  width: 557px;
+  height: 394px;
+  margin-right: 20px;
+}
+
+.news__tab_Surfer {
+  background: url(./img/Surfer.png);
+  width: 557px;
+  height: 394px;
+}
+
+
+.news__tab-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 229px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 26px 30px;
+  min-height: 116px;
+}
+
+.news__date {
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+
+.news__tab-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.news__slogan {
+  font-weight: normal;
+  font-size: 16px;
+  
+}
+
+
+
+.pager {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 142px;
+  margin-left: 153px;
+}
+
+
+
+.pager__display {
+  margin-right: 25px;
+}
+
+.pager__list {
+  display: flex;
+  align-items: center;
+}
+
+.pager__item {
+  text-align: center;
+  margin-right: 24px;
+}
+
+.pager__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.pager__item_active .pager__link{
+  background: #FFFFFF;
+}
+
+
+.about {
+  margin-bottom: 53px;
+}
+
+.container_about:before {
+  content: "";
+  display: block;
+  vertical-align: top;
+  width: 490px;
+  height: 505px;
+  background: url(./img/gates.png);
+}
+
+.about__company {
+  background: url(./img/mountains.png);
+  padding: 150px 80px;
+  width: 785px;
+  height: 455px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 350px;
+  margin-top: -400px;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 37px;
+  margin-top: -84px;
+}
+
+.about__company_text {
+  font-weight: normal;
+  font-size: 16px;
+  color: #060606;
+  margin-bottom: 43px;
+  max-width: 785px;
+}
+
+.about__company-text p{
+  margin-bottom: 20px;
+}
+
+.about__p {
+  color: #060606;
+  line-height: 27px;
+}
+
+.about__btn {
+  margin-top: 45px;
+}
+
+.about__company_text p:last-child{
+  margin-bottom: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.page_content {
+  flex: 1 0 auto;
+}
+
+
+.footer {
+  background: #001821;
+  width: 1920px;
+}
+
+.footer-container__content {
+  border-top: 1px solid #353538;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  height: 92.64px;
+}
+
+.footer__col {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 57px;
+}
+
+.footer__col_align-left {
+  align-items: center;
+  margin-top: 42px;
+}
+
+.footer__col_align-right {
+  align-items: flex-end;
+  align-items: center;
+  margin-top: 42px;
+}
+
+.contacts__workhours {
+  color: #9A9A9A;
+  font-size: 11px;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials {
+  margin-right: 74px;
+  top: 49px;
+  right: 300px;
+}
+
+.socials__item_telegram .socials__link {
+  background-image: url(./img/telegram.png);
+}
+
+.ssocials__item_telegram .socials__link:hover {
+  background-image: url(./img/telegram-hover.png.png);
+}
+
+.socials__item_vk .socials__link {
+  background-image: url(./img/vk.png);
+}
+
+.socials__item_vk .socials__link:hover {
+  background-image: url(./img/vk-hover.png.png);
+}
+
+.socials__item_fb .socials__link {
+  background-image: url(./img/f.png);
+}
+
+.socials__item_fb .socials__link:hover {
+  background-image: url(./img/f-hover.png.png);
+}
+
+.socials__item_insta .socials__link {
+    background-image: url(./img/in.png);
+}
+  
+.socials__item_insta .socials__link:hover {
+    background-image: url(./img/in-hover.png.png);
+}

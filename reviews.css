@@ -82,7 +82,7 @@ a {
   align-items: center;
 }
 
-.top-line__col_align_right {
+.top-line__col_align-right {
   justify-content: flex-end;
 }
 
@@ -297,23 +297,26 @@ background: #E7E7E7;
 }
 
 
-.separatot {
-  background: coral url("./img/reviews/Rectangle\ \(1\).png") right 20% bottom no-repeat;
+.separator {
+  background: url("./img/reviews/Rectangle\ \(1\).png") right 20% bottom no-repeat;
   min-height: 363px;
   display: flex;
   flex-direction: column;
   width: 1920px;
 }
 
-.container__separator {
+.container_separator {
   display: flex;
   flex-direction: column;
-  background: coral;
 }
 
 .separator__content {
   min-width: 50%;
-  color: #000000;
+  color: #FFFFFF;
+  font-style: bold;
+  padding: 117px 20px;
+  font-size: 40px;
+  line-height: 56px;
 }
 
 .feedback {
@@ -381,7 +384,7 @@ background: #E7E7E7;
   cursor: pointer;
 }
 
-.controls__checkbox:checked ~ .tag__controls{
+.controls__checkbox:checked ~ .controls__tag{
   background: #B9EAE4;
 }
 
