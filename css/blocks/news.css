@@ -1,0 +1,66 @@
+.news__list {
+  margin-bottom: 57px;
+}
+
+.news__tab {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  max-width: 557px;
+}
+
+.news__tab img {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
+  width: 557px;
+  height: 394px;
+  background: url(.jpg);
+  border-radius: 5px;
+}
+
+.news__tab_plain {
+  background: url(../../img/plain.jpg);
+  width: 557px;
+  height: 394px;
+  margin-right: 20px;
+}
+
+.news__tab_Surfer {
+  background: url(../../img/Surfer.jpg);
+  width: 557px;
+  height: 394px;
+}
+
+
+.news__tab-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 229px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 26px 30px;
+  min-height: 116px;
+}
+
+.news__date {
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+
+.news__tab-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.news__slogan {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.news__title {
+  margin-top: 18px;
+  margin-bottom: 57px;
+}

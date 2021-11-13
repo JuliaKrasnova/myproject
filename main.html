@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');</style>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="./css/main.css">
   <title>Document</title>
 </head>
 
 <body>
   <div class="wrapper main-page-wrapper">
 
-    <div class="page_content">   
+    <div class="page-content">   
       <header class="header">
         <div class="container container_header">
           <div class="header__col">
             <a href="#" class="logo">
-              <img src="./img/лого.png" alt="" class="logo__pic">
+              <img src="./img/лого.jpg" alt="" class="logo__pic">
             </a>
             <nav class="menu">
             <ul class="menu__list">
@@ -29,9 +29,22 @@
           <div class="header__col header__col_align-right">
             <address class="contacts">
               <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-              <div class="contacts__mode">График работы</div>
-            </address>
 
+              <div class="dropdown">
+                <a class="dropdown__link" href="#">График работы</a>
+                <div class="dropdown__menu">
+                  <ul class="dropdown__list">
+                    <li class="dropdown__item">
+                      <img class="dropdowm__text" src="./img/dropdown/time.jpg" alt="">
+                    </li>
+                    <li class="dropdown__item">
+                      <img class="dropdowm__text" src="./img/dropdown/lunch.jpg" alt="">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          
+            </address>
           </div>
 
         </div>
@@ -39,9 +52,9 @@
             
       
       <main class="main-content">
-        <div class="container container_main">
+        <div class="container container_main-main">
           <div class="useful-info">
-            <h1 class="useful-info__title">Авторские туры по Азии</h1>
+            <h1 class="name">Авторские туры по Азии</h1>
             <div class="userfil-info__slogan">Открой для себя Азию</div>
             <a class="useful-info__btn btn" href="">Подробнее</a>
           </div>
@@ -50,48 +63,48 @@
             <div class="container">
               <div class="tours__title-block">
                 <h2 class="title tours__title">Горящие туры</h2>
-                <img class="icon tours__title" src="./img/flame.png" alt="">
+                <img class="icon tours__title" src="./img/flame.jpg" alt="">
               </div>
           
             <ul class="tours__tabs">
               
               <li class="tours__item tour-card">
                 <div class="tour-card__img-block">
-                  <img class="tour__img" src="./img/river.png" alt="">
+                  <img class="tour__img" src="./img/river.jpg" alt="">
                 </div>
                 <div class="tour-card__content">
                   <h3 class="tour-card__title">Тайланд</h3>
 
                   <div class="tour-card__col">
                     <div class="tour-card__col_left">
-                      <img class="tour-card__icon" src="./img/calendar.png" alt="">
+                      <img class="tour-card__icon" src="./img/calendar.jpg" alt="">
                       <div class="tour-card__text">7-12ночей</div>
                     </div>
                     <div class="tour-card__col_right">
-                      <img class="tour-card__icon" src="./img/meal.png" alt="">
+                      <img class="tour-card__icon" src="./img/meal.jpg" alt="">
                       <div class="tour-card__text">Завтраки</div>
                     </div>
                   </div>
                   <p class="tour-card__descr">
                     Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
                   </p>
-                  <a class="btn btn_white" href="">Смотреть</a>
+                  <a class="btn btn_white-tours" href="">Смотреть</a>
                 </div>
               </li>
 
               <li class="tours__item tour-card">
                 <div class="tour-card__img-block">
-                <img class="tours__img" src="./img/pool.png" alt="">
+                <img class="tours__img" src="./img/pool.jpg" alt="">
                 </div>
                 <div class="tour-card__content">
                   <h3 class="tour-card__title">Бали</h3>
                   <div class="tour-card__col">
                     <div class="tour-card__col_left">
-                      <img class="tour-card__icon" src="./img/calendar.png" alt="">
+                      <img class="tour-card__icon" src="./img/calendar.jpg" alt="">
                       <div class="tour-card__text">7-12ночей</div>
                     </div>
                     <div class="tour-card__col_right">
-                      <img class="tour-card__icon" src="./img/meal.png" alt="">
+                      <img class="tour-card__icon" src="./img/meal.jpg" alt="">
                       <div class="tour-card__text">Завтраки</div>
                     </div>
                   </div>
@@ -104,30 +117,30 @@
 
               <li class="tours__item tour-card">
                 <div class="tour-card__img-block">
-                <img class="tours__img" src="./img/ocean.png" alt="">
+                <img class="tours__img" src="./img/ocean.jpg" alt="">
                 </div>
                 <div class="tour-card__content">
                   <h3 class="tour-card__title">Индонезия</h3>
                   <div class="tour-card__col">
                     <div class="tour-card__col_left">
-                      <img class="tour-card__icon"  src="./img/calendar.png" alt="">
+                      <img class="tour-card__icon"  src="./img/calendar.jpg" alt="">
                       <div class="tour-card__text">7-12ночей</div>
                     </div>
                     <div class="tour-card__col_right">
-                      <img class="tour-card__icon" src="./img/meal.png" alt="">
+                      <img class="tour-card__icon" src="./img/meal.jpg" alt="">
                       <div class="tour-card__text">Завтраки</div>
                     </div>
                   </div>  
                   <p class="tour-card__descr">
                    Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
                   </p>
-                  <a href="" class="btn btn_white">Смотреть</a>
+                  <a href="" class="btn btn_white-tours">Смотреть</a>
                 </div>
               </li>
             </ul>
           </div>
         </div>
-      </main>
+      
 
     
     
@@ -158,7 +171,7 @@
       </div>
       </section>
 
-      <div class="pager">
+      <div class="pager pager_main">
         <div class="pager__display">Страница 1 из 7</div>
         <ul class="pager__list">
           <li class="pager__item pager__item_active"><a href="" class="pager__link">1</a></li>
@@ -187,12 +200,14 @@
 
     </div> 
 
+      </main>
+
 
       <footer class="footer">
         <div class="container footer-container__content">
           <div class="footer__col footer__col_align-left">
             <a href="#" class="logo">
-            <img src="./img/лого.png" alt="" class="logo__pic">
+            <img src="./img/лого.jpg" alt="" class="logo__pic">
           </a>
           <nav class="menu">
             <ul class="menu__list">

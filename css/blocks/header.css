@@ -1,0 +1,30 @@
+.header {
+  align-items: center;
+  vertical-align: middle;
+  margin-bottom: 130px;
+  padding-top: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
+}
+
+.header__col_align-right {
+  justify-content: flex-end;
+}
+
+.header-reviews {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
+}

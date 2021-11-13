@@ -1,0 +1,16 @@
+.breadcrumbs__item {
+  display: inline-block;
+  vertical-align: bottom;
+  text-decoration-line: underline;
+  margin-bottom: 48px;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.breadcrumbs__link {
+  color: #9A9A9A;
+}

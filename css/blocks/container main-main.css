@@ -1,0 +1,35 @@
+
+.container_main-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 500px;
+}
+
+.useful-info {
+  width: 50%;
+}
+
+.useful-info__title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 98px;
+  margin-bottom: 27px;
+}
+
+.userfil-info__slogan {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 33px;
+}
+
+.useful-info__btn {
+  margin-bottom: 246px;
+}
+
+.title-main {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 51px;
+}

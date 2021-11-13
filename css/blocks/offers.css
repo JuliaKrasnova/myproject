@@ -1,0 +1,27 @@
+.offers {
+  margin-top: 86px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 82px;
+}
+
+.offers__img {
+  margin-right: 56px;
+}
+
+.offers__title {
+  font-size: 36px;
+  font-style: bold;
+  line-height: 42px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+  font-weight: bold;
+}
+
+.offers__content {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 27px;
+  color: #303030;
+}

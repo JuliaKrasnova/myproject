@@ -1,0 +1,28 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown__menu {
+  left: 0;
+  background: url(../../img/dropdown/dropdown.jpg) ;
+}
+
+.dropdown:hover .dropdown__menu::after {
+  animation-duration: 3s;
+}
+
+.dropdown__menu {
+  position: absolute;
+  background: none;
+  padding: 15px 19px;
+  top: 100%;
+  left: -111111px;
+}
+
+.dropdown__link {
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+

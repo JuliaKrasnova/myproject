@@ -1,0 +1,26 @@
+.separator {
+  background: url("../../img/reviews/Rectangle.jpg") right 20% bottom no-repeat;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+}
+
+.container_separator {
+  display: flex;
+  flex-direction: column;
+}
+
+.separator__content {
+  min-width: 50%;
+  color: #FFFFFF;
+  font-style: bold;
+  padding: 117px 20px;
+  font-size: 40px;
+  line-height: 56px;
+}
+
+.separator__title {
+  font-size: 48px;
+  line-height: 56px;
+}

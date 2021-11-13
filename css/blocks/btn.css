@@ -1,0 +1,26 @@
+.btn {
+  margin-top: 34px;
+  display: inline-block;
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 40px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn_red {
+  vertical-align: bottom;
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+.btn_white {
+  border: 1px solid #F5170E;
+  box-sizing: border-box;
+  border-radius: 35px;
+  background: #FFFFFF;
+  color: #F5170E;
+}

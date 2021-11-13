@@ -1,0 +1,25 @@
+.partners__title {
+  font-size: 48px;
+  line-height: 56px;
+  color: #1A1B1E;
+  margin-bottom: 99px;
+  margin-left: 66px;
+}
+
+.partners {
+  background: #F4F5F5;
+  color: #1A1B1E;
+  padding: 88 0;
+}
+
+.container_partners {
+  display: flex;
+  flex-direction: column;
+}
+
+.partners__title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 88px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,40 @@
+.top-line {
+  display: flex;
+  flex-direction: column;
+  min-height: 412px;
+  padding-top: 26px;
+  background: url(../../img/header/headline\ 1.jpg) center top no-repeat;
+  width: 1920px;
+  height: 412px;
+  background-size: cover;
+}
+
+.top-line-services {
+  display: flex;
+  flex-direction: column;
+  min-height: 412px;
+  
+  margin-bottom: 70px;
+  padding-top: 26px;
+  background: url(../../img/header/headline\ 1.jpg) center top no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.container_top-line {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+}
+
+.top-line__col {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  align-items: center;
+}
+
+.top-line__col_align-right {
+  justify-content: flex-end;
+}
