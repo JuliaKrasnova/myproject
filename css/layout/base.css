@@ -124,9 +124,10 @@ html, body {
   flex-direction: column;
   height: 100%;
   min-width: 1200px;
+  min-height: 100%;
 }
 
-.page-content {
+.page-content_main {
   flex: 1 0 auto;
   background: url(../../img/main1.jpg) center top no-repeat, url(../../img/main2.jpg) center bottom 165px no-repeat, #001821;
 }
