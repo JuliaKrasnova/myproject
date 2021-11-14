@@ -4,8 +4,7 @@
   min-height: 412px;
   padding-top: 26px;
   background: url(../../img/header/headline\ 1.jpg) center top no-repeat;
-  width: 1920px;
-  height: 412px;
+  width: 100%;
   background-size: cover;
 }
 
@@ -13,7 +12,6 @@
   display: flex;
   flex-direction: column;
   min-height: 412px;
-  
   margin-bottom: 70px;
   padding-top: 26px;
   background: url(../../img/header/headline\ 1.jpg) center top no-repeat;

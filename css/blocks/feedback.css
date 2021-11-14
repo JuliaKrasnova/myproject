@@ -1,6 +1,6 @@
 .feedback {
   margin-bottom: 96px;
-  margin-top: 70px;
+  margin-top: 117px;
 }
 
 .feedback__title {
@@ -24,11 +24,12 @@
   background: #FFFFFF;
   padding: 22px 30px;
   font-size: 18px;
-  color: #1A1B1E;
 }
 
+
 input:focus {
-  color: red;
+  border: 1px solid red;
+  outline: none;
 }
 
 .form__input:last-child {
@@ -43,10 +44,18 @@ input:focus {
   height: 235px;
 }
 
+.form__input_textarea:focus {
+  border: 1px solid red;
+  outline: none;
+}
+
+.form__input_textarea::placeholder {
+  color: #666666;
+}
+
 .form__controls {
   display: flex;
   margin-bottom: -7px;
-
 }
 
 .form__controls-title {
@@ -93,5 +102,4 @@ input:focus {
 .form__btns {
   display: flex;
   justify-content: flex-end;
-  margin-right: -72px;
 }

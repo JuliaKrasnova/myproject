@@ -3,7 +3,8 @@
   min-height: 363px;
   display: flex;
   flex-direction: column;
-  width: 1920px;
+  width: 100%;
+  background-size: cover;
 }
 
 .container_separator {

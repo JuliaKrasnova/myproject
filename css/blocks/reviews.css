@@ -1,5 +1,6 @@
 .main-reviews {
   background: #F4F5F5;
+  height: 100%;
 }
 
 
@@ -15,10 +16,8 @@
   padding: 50px 30px;
   background: #e8e1e1;
   width: 557px;
-  margin-bottom: -123px;
-  margin-right: 27px;
-  margin-left: 63px;
-  margin-top: 110px;
+  /*margin-top: 98px;*/
+  margin-top: 17px;
 }
 
 .review__header {
@@ -27,12 +26,16 @@
   margin-bottom: 26px;
 }
 
-.avatar {
+.review__photo {
   width: 142px;
   height: 142px;
   overflow: hidden;
   border-radius: 50%;
   margin-right: 22px;
+}
+
+.avatar {
+  width: 100%;
 }
 
 .review__user {
@@ -92,4 +95,3 @@
     font-weight: bold;
   }
 
-  
